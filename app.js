@@ -7,7 +7,7 @@ re = /^h/i; //MUST begin with 'h'
 re = /hello$/i; //MUST end with 'h'
 re = /^hello$/i; //must both END and BEGIN with the SAME 'hello'
 re = /h.llo/i;  //the '.' can act as a wild card for exactly ONE character
-re = /h*llo/i;  //the '*' can act as a wild card for ANY # of chars including 0
+re = /h*llo/i;  //the '*' can act as a wild card for ANY # of chars including 
 
 //String to test
 const str = 'hllo';
